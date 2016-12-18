@@ -6,7 +6,7 @@ import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
 import './style.css'
 
-let profilePic = 'https://res.cloudinary.com/dgbjwyspu/image/upload/v1482054088/15356506_385890965083735_8627881344722748331_n_q5i4x9.jpg';
+let profilePic = 'https://res.cloudinary.com/dgbjwyspu/image/upload/v1482054088/Blog/15356506_385890965083735_8627881344722748331_n_q5i4x9.jpg'
 
 class SiteSidebar extends React.Component {
     render() {

@@ -8,6 +8,7 @@
 	margin-top: 10px;
 	line-height: 30px;
 	margin-bottom: 20px;
+  font-family: 'Source Code Pro', monospace;
 }
 .blog-post h2 a:hover {
 	border-bottom: 1px solid;
@@ -25,13 +26,13 @@
 }
 .blog-post .blog-category {
 	font-size: 14px;
-	color: #f7a046;
+	color: #f75700;
 	font-weight: 500;
 	text-transform: uppercase;
 }
 .blog-post .readmore {
 	font-size: 16px;
-	color: #5d93ff;
+	color: #00ab6b;
 }
 .blog-post .readmore:hover {
 	border-bottom: 1px solid;
