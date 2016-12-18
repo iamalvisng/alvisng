@@ -5,7 +5,8 @@ import { config } from 'config'
 import SiteNav from '../SiteNav'
 import SiteLinks from '../SiteLinks'
 import './style.css'
-import profilePic from '../../pages/photo.jpg'
+
+let profilePic = 'https://res.cloudinary.com/dgbjwyspu/image/upload/v1482054088/15356506_385890965083735_8627881344722748331_n_q5i4x9.jpg';
 
 class SiteSidebar extends React.Component {
     render() {
@@ -15,7 +16,7 @@ class SiteSidebar extends React.Component {
         let header = (
         <header>
           <Link style={ {    textDecoration: 'none',    borderBottom: 'none',    outline: 'none'} } to={ prefixLink('/') }>
-          <img src={prefixLink(profilePic)} width='75' height='75' />
+          <img src={profilePic} width='75' height='75' />
           </Link>
           { isHome ? (
             <h1><Link style={ {    textDecoration: 'none',    borderBottom: 'none',    color: 'inherit'} } to={ prefixLink('/') }> { config.siteAuthor } </Link></h1>
