@@ -13,7 +13,7 @@ module.exports = React.createClass({
         const {body, route} = this.props
         const {title} = Helmet.rewind()
         const font = <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
-        const monoFont = <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro:500" rel="stylesheet">
+        const monoFont = <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro:500" rel="stylesheet" />
         let css
         if (process.env.NODE_ENV === 'production') {
             css = <style dangerouslySetInnerHTML={ {    __html: require('!raw!./public/styles.css')} } />
