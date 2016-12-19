@@ -33,9 +33,22 @@ class MarkdownWrapper extends React.Component {
                     name: 'description',
                     content: `${post.description}`,
                   },
+                  // Open Graph data
+                  {
+                    property: 'fb:app_id',
+                    content: '1864819570421578',
+                  },
+                  {
+                    property: 'fb:smart_publish:robots',
+                    content: 'noauto',
+                  },
                   {
                     property: 'og:title',
                     content: `${post.title} - ${post.category}`,
+                  },
+                  {
+                    name: 'og:type',
+                    content: 'article',
                   },
                   {
                     property: 'og:url',
@@ -46,8 +59,70 @@ class MarkdownWrapper extends React.Component {
                     content: `${cloudinary}${post.image_path}`,
                   },
                   {
-                    property: 'fb:app_id',
-                    content: '1864819570421578',
+                    property: 'og:description',
+                    content: `${post.description}`,
+                  },
+                  {
+                    property: 'og:site_name',
+                    content: 'Alvis Ng',
+                  },
+                  {
+                    name: 'article:published_time',
+                    content: `${post.date}`,
+                  },
+                  {
+                    name: 'article:section',
+                    content: `${post.category}`,
+                  },
+                  {
+                    name: 'fb:admins',
+                    cotent: '385884901751008',
+                  },
+                  // Twitter Card data
+                  {
+                    name: 'twitter:card',
+                    content: 'summary_large_image',
+                  },
+                  {
+                    name: 'twitter:site',
+                    content: '@alvis_bp',
+                  },
+                  {
+                    name: 'twitter:title',
+                    cotent: `${post.title}`,
+                  },
+                  {
+                    name: 'twitter:description',
+                    content: `${post.description}`,
+                  },
+                  {
+                    name: 'twitter:creator',
+                    content: '@alvis_bp',
+                  },
+                  {
+                    name: 'twitter:label1',
+                    content: `${post.category}`,
+                  },
+                  {
+                    name: 'twitter:img:src',
+                    content: `${cloudinary}${post.image_path}`,
+                  },
+                  // Schema.org markup for Google+
+                  {
+                    itemprop: 'name',
+                    content: `${post.title}`,
+                  },
+                  {
+                    itemprop: 'description',
+                    content: `${post.description}`,
+                  },
+                  {
+                    itemprop: 'image',
+                    content: `${cloudinary}${post.image_path}`,
+                  },
+                  {
+                    name: 'author',
+                    content: 'https://medium.com/@AlvisNg',
                   },
                   {
                     property: 'article:publisher',
@@ -58,52 +133,8 @@ class MarkdownWrapper extends React.Component {
                     content: 'https://medium.com/@AlvisNg',
                   },
                   {
-                    property: 'fb:smart_publish:robots',
-                    content: 'noauto',
-                  },
-                  {
                     name: 'robots',
                     content: 'index follow',
-                  },
-                  {
-                    name: 'article:published_time',
-                    content: `${post.date}`,
-                  },
-                  {
-                    property: 'og:description',
-                    content: `${post.description}`,
-                  },
-                  {
-                    property: 'og:site_name',
-                    content: 'Alvis Ng',
-                  },
-                  {
-                    name: 'twitter:site',
-                    content: '@alvis_bp',
-                  },
-                  {
-                    name: 'twitter:label1',
-                    content: `${post.category}`,
-                  },
-                  {
-                    name: 'twitter:description',
-                    content: `${post.description}`,
-                  },
-                  {
-                    name: 'twitter:img:src',
-                    content: `${cloudinary}${post.image_path}`,
-                  },
-                  {
-                    name: 'twitter:card',
-                    content: 'summary_large_image',
-                  },
-                  {
-                    name: 'author',
-                    content: 'https://medium.com/@AlvisNg',
-                  },
-                  {
-                    name: 'og:type',
-                    content: 'article',
                   },
                 ]}
                 link={[
