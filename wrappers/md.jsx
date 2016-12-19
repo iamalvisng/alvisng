@@ -26,7 +26,7 @@ class MarkdownWrapper extends React.Component {
                 title={`${post.title} - ${config.siteTitle}`}
                 meta={[
                   {
-                    name: 'tile',
+                    name: 'title',
                     content: `${post.title}`,
                   },
                   {

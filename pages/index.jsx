@@ -40,7 +40,87 @@ class SiteIndex extends React.Component {
 
         return (
             <div>
-              <Helmet title={ config.siteTitle }/>
+              <Helmet
+                title={config.siteTitle}
+                meta={[
+                  {
+                    name: 'title',
+                    content: `${config.siteTitle}`,
+                  },
+                  {
+                    name: 'description',
+                    content: 'A father and husband. Co-founder and front-end hacker at Expade.com. Big fan of minimalism and deep work.',
+                  },
+                  {
+                    property: 'fb:app_id',
+                    content: '1864819570421578',
+                  },
+                  {
+                    property: 'og:title',
+                    content: `${config.siteTitle}`,
+                  },
+                  {
+                    name: 'og:type',
+                    content: 'website',
+                  },
+                  {
+                    property: 'og:url',
+                    content: 'http://alvisng.me',
+                  },
+                  {
+                    property: 'og:image',
+                    content: 'https://res.cloudinary.com/dgbjwyspu/image/upload/v1482054088/Blog/15356506_385890965083735_8627881344722748331_n_q5i4x9.jpg',
+                  },
+                  {
+                    property: 'og:description',
+                    content: 'A father and husband. Co-founder and front-end hacker at Expade.com. Big fan of minimalism and deep work.',
+                  },
+                  {
+                    property: 'og:site_name',
+                    content: 'Alvis Ng',
+                  },
+                  {
+                    name: 'fb:admins',
+                    cotent: '385884901751008',
+                  },
+                  {
+                    name: 'twitter:card',
+                    content: 'summary_large_image',
+                  },
+                  {
+                    name: 'twitter:site',
+                    content: '@alvis_bp',
+                  },
+                  {
+                    name: 'twitter:title',
+                    cotent: `${config.siteTitle}`,
+                  },
+                  {
+                    name: 'twitter:description',
+                    content: 'A father and husband. Co-founder and front-end hacker at Expade.com. Big fan of minimalism and deep work.',
+                  },
+                  {
+                    name: 'twitter:creator',
+                    content: '@alvis_bp',
+                  },
+                  {
+                    name: 'twitter:img:src',
+                    content: 'https://res.cloudinary.com/dgbjwyspu/image/upload/v1482054088/Blog/15356506_385890965083735_8627881344722748331_n_q5i4x9.jpg',
+                  },
+                  {
+                    itemprop: 'name',
+                    content: `${config.siteTitle}`,
+                  },
+                  {
+                    itemprop: 'description',
+                    content: 'A father and husband. Co-founder and front-end hacker at Expade.com. Big fan of minimalism and deep work.',
+                  },
+                  {
+                    itemprop: 'image',
+                    content: 'https://res.cloudinary.com/dgbjwyspu/image/upload/v1482054088/Blog/15356506_385890965083735_8627881344722748331_n_q5i4x9.jpg',
+                  },
+                ]}
+              />
               <SiteSidebar {...this.props}/>
               <div className='content'>
                 <div className='main'>
