@@ -5,6 +5,7 @@ layout: post
 path: "/its-3rd-week-of-december-have-you-written-your-new-year-resolutions-yet/"
 category: "Life Lessons"
 description: "Every year this time many of us would passionately come out a list of TOBEs and TODOs — New Year Resolutions — the gist of the next 365 days."
+image_path: 'v1482055397/Blog/1-6fQBqEr4b8AZ4xtphpVjAg_c4wyue.jpg'
 ---
 
 ## I haven’t, and I am not planning to do it.

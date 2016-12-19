@@ -5,6 +5,7 @@ layout: post
 path: "/introducing-expade-the-first-community-powered-adventure-travel-platform/"
 category: "Expade"
 description: "Expade is a web-based application built for adventurers to venture to great places with like-minded people all around the world."
+image_path: 'v1482055376/Blog/1-nAbzqXluw6CNFmY-d7Pf-g_my0www.jpg'
 ---
 
 *[Expade](https://expade.com) is a web-based application built for adventurers to venture to great places with like-minded people all around the world.*

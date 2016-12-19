@@ -2,9 +2,10 @@
 title: The reasons why I love the 30-year-old me
 date: "2016-04-21T19:49:32.169Z"
 layout: post
-path: "/the-reasons-why-i-love-the-30-year-old-me/"
+path: "/the-reasons-why-i-love-the-30-year-old-me"
 category: "Life Lessons"
 description: "I am not a billionaire, I don’t have a mansion, I don’t have a Ferrari, I don’t have a jet… But I’m a very RICH man, a very RICH 30-year-old man, and it’s extremely joyful to be that man."
+image_path: 'v1482055399/Blog/1-Pz6m2nosRS88SnspASFEWg_ksidca.jpg'
 ---
 
 >Life is like riding a bicycle. To keep your balance, you must keep moving. — Albert Einstein

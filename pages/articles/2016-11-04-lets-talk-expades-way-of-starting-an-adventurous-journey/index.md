@@ -5,6 +5,7 @@ layout: post
 path: "/lets-talk-expades-way-of-starting-an-adventurous-journey/"
 category: "Expade"
 description: "An adventure, be it trekking, lakeside camping, or backpacking. It is expected to bring us unique, exciting, and fulfilling experience. The adventure mode has turned on, the pistons are racing, the adrenaline is rushing. The all out moment. And we have no intention in killing it with an unordered list."
+image_path: 'v1482055387/Blog/1-f_WCsQdGG_xtcHcAck2wSw_weeshj.jpg'
 ---
 
 ## Because that’s part of the excitement…

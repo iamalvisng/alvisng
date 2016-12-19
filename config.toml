@@ -10,6 +10,6 @@ siteEmailUrl = "alvis.bpng@gmail.com"
 siteRssUrl = "#"
 siteVkUrl = "#"
 
-googleAnalyticsId = ""
+googleAnalyticsId = "UA-89161767-1"
 
 linkPrefix = "/gatsby-starter-lumen"

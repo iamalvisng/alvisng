@@ -11,7 +11,7 @@ module.exports = React.createClass({
     },
     render() {
         const {body, route} = this.props
-        const {title} = Helmet.rewind()
+        const head = Helmet.rewind()
         const font = <link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
         const monoFont = <link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Code+Pro:500" rel="stylesheet" />
         let css
@@ -25,7 +25,10 @@ module.exports = React.createClass({
               <meta charSet="utf-8" />
               <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
               <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=5.0" />
-              { title.toComponent() }
+              { head.title.toComponent() }
+              { head.meta.toComponent() }
+              { head.link.toComponent() }
+              { monoFont }
               { font }
               { css }
             </head>
