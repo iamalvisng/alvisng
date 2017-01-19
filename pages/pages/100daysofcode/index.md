@@ -47,7 +47,7 @@ Failed and will try to fix it by tomorrow again.
 
 ### Day 4: January 17, 2016
 
-**Today's Progress**: Setting up a new page on my personal gatsby-powered blog
+**Today's Progress**: Setting up a new page on my personal gatsby-powered blog.
 
 **Thoughts:** Decided to add a new page on my personal blog [alvisng.me](http://alvisng.me/) to help sharing my #100DaysOfWork log with others.
 
@@ -60,3 +60,12 @@ Failed and will try to fix it by tomorrow again.
 **Thoughts:** Decided to add a new page on my personal blog [alvisng.me](http://alvisng.me/) to help sharing my #100DaysOfWork log with others.
 
 **Link to work:** [alvisng.me](http://alvisng.me/)
+
+### Day 6: January 19, 2016
+
+**Today's Progress**: Fixed pages path at my personal blog.
+
+**Thoughts:** Decided to add a new page on my personal blog [alvisng.me](http://alvisng.me/) to help sharing my #100DaysOfWork log with others. Continue to work on the blog to fix the uneeded path in side navigations.
+
+**Link to work:** [alvisng.me](http://alvisng.me/)
+

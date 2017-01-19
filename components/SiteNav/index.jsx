@@ -9,18 +9,18 @@ class SiteNav extends React.Component {
         return (
             <nav className='blog-nav'>
               <ul>
-                 <li>
-                  <Link to={ prefixLink('/100daysofcode/')} activeClassName="current"> #100DaysOfCode
-                 </Link> 
-                </li> 
-                {/* <li>
-                  <Link to={ prefixLink('/')} activeClassName="current" onlyActiveOnIndex> Articles
-                  </Link> 
-                </li>*/}
                 <li>
-                  <Link to={ prefixLink('/about/')} activeClassName="current"> About me
+                  <Link to={ prefixLink('/100daysofcode/')} activeClassName="current" onlyActiveOnIndex> #100DaysOfCode
                   </Link>
                 </li>
+                {/* <li>
+                  <Link to={ prefixLink('/')} activeClassName="current" onlyActiveOnIndex> Articles
+                  </Link>
+                </li> */}
+                {/* <li>
+                  <Link to={ prefixLink('/about/')} activeClassName="current"> About me
+                  </Link>
+                </li> */}
                 {/* <li>
                   <Link to={ prefixLink('/contact/')} activeClassName="current"> Contact me
                   </Link>
